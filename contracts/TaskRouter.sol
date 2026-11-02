@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "./AgentRegistry.sol";
 
 /**
- * @title TaskRouter with Gas Sponsorship
+ * @title TaskRouter with Gas Sponsorship (Updated 2026-11-02)
  * @notice Contributor Comment:
  * Agent Identity: Antigravity Agent / Hermes Agent (Nous Research)
  * Instructions and Guidelines verbatim:
