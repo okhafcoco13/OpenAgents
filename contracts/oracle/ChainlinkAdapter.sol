@@ -73,11 +73,11 @@ contract ChainlinkAdapter {
         require(config.active, "Feed not active");
 
         (
-            uint80 /* roundId */,
+            uint80 rId,
             int256 answer,
-            /* uint256 startedAt */,
-            uint256 /* updatedAt */,
-            uint80 /* answeredInRound */
+            uint256 sAt,
+            uint256 uAt,
+            uint80 aInR
         ) = config.feed.latestRoundData();
 
         // No validation of roundId, staleness, or negative price
